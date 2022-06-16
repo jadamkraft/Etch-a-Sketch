@@ -17,15 +17,15 @@ body {
     align-items: center;
 }
 
-.row-1, .row-2, .row-3, .row-4 {
-    border: .2em solid red;
+.row-one, .row-two, .row-three, .row-four {
+    border: .1em solid red;
     display: flex;
     flex: 1;
     align-self: stretch;
 }
 
 .box {
-    border: .3em solid blue;
+    border: .1em solid blue;
     display: flex;
     flex: 1;
 }
