@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    border: .1em solid black;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-1, .row-2, .row-3, .row-4 {
+    border: .2em solid red;
+    display: flex;
+    flex: 1;
+    align-self: stretch;
+}
+
+.box {
+    border: .3em solid blue;
+    display: flex;
+    flex: 1;
+}
